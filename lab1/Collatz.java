@@ -10,6 +10,7 @@ public class Collatz {
         } else if (n == 5) {
             return 3 * n + 1;
         } else {
+            // wrong: return n * 2;
             return n / 2;
         }
     }
